@@ -1,0 +1,396 @@
+/* clearfix */
+
+.clearfix{
+	zoom:1;
+}
+
+.clearfix:before,.clearfix:after{
+	display:table;
+	line-height: 0;
+	content: '';
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+/* reset */
+
+body{
+	margin:0;
+	padding:0;
+	background-color:#4c6280;
+}
+
+
+#mainWrapper{
+	margin:0 auto;
+}
+/* Styling the left floated column */
+
+.columnLeftFloated{
+	width:25%;
+	float:left;
+}
+
+img{
+	max-width:100%;
+	height: auto;
+}
+
+.darkBlue{
+	height:300px;
+	background-color:#1f3045;
+	text-align: center;
+	margin-bottom:14px;
+}
+
+.heart,.share{
+	display:inline-block;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:120px;
+}
+
+.white{
+	color:white;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.red{
+	color:red;
+}
+
+.italic{
+	font-style: italic;
+}
+.biggerFont{
+	font-size:30px;
+}
+h1,h2,h3,p{
+	margin:0;
+	padding:0;
+}
+
+div.heart a{
+	-webkit-transitio:transform 1s;
+	-moz-transition:transform 1s;
+	-o-transition:transform 1s;
+	transition:transform 1s;
+}
+
+div.heart a:hover{
+	-webkit-transform:scale(1.2,1.2);
+	-moz-transform:scale(1.2,1.2);
+	-o-transform:scale(1.2,1.2);
+	transform:scale(1.2,1.2);
+}
+
+div.share a{
+	-webkit-transitio:transform 1s;
+	-moz-transition:transform 1s;
+	-o-transition:transform 1s;
+	transition:transform 1s;
+}
+div.share a:hover{
+	-webkit-transform:scale(1.2,1.2);
+	-moz-transform:scale(1.2,1.2);
+	-o-transform:scale(1.2,1.2);
+	transform:scale(1.2,1.2);
+}
+
+.skyblue{
+	background-color: #66ccff;
+	margin-bottom:34px;
+}
+
+div.alexWhite{
+	padding:20px;
+}
+hr{
+	margin:0;
+	padding: 0;
+}
+.singolo{
+	padding:20px;
+}
+
+.rightFloated{
+	float:right;
+}
+.hotWhat{
+	margin-bottom:40px;
+}
+.news{
+	background-color: white;
+}
+
+.whatsHot{
+	padding:20px;
+	text-align: center;
+}
+
+div.icon{
+	background-color: #787878;
+	height:74px;
+	width:70px;
+	vertical-align: top;
+}
+
+.podNews{
+	text-align: center;
+	background-color:white;
+	padding-top:14px;
+	padding-bottom:18px;
+}
+
+div.icon{
+	display:inline-block;
+}
+div.newsText{
+	display:inline-block;
+	padding:5px;
+	width:60%;
+	text-align: left;
+}
+
+div.askQuestion{
+	background-color:white;
+}
+
+.questionForm{
+	padding-left:15%;
+}
+
+.questionForm input[type="text"]{
+	padding:5px;
+	margin-bottom:10px;
+	width:80%;
+}
+
+p,div,h1,h2,h3{
+	overflow: hidden;
+	word-wrap:break-word;
+	font-family: 'Poiret One', cursive;
+}
+
+#emailInputNasco[type="email"]{
+	padding:5px;
+	margin-bottom:10px;
+	width:80%;
+}
+
+textarea{
+	resize:none;
+	width:80%;
+}
+
+button#nasco{
+	border:2px solid transparent;
+	border-radius:5px;
+	padding-top:14px;
+	padding-bottom:14px;
+	padding-left:22px;
+	padding-right:22px;
+	margin-top:22px;
+	margin-bottom:24px;
+	background-color:#ea6060;
+	color:white;
+	cursor:pointer;
+}
+
+button#vasco{
+	border:2px solid transparent;
+	border-radius:5px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:22px;
+	padding-right:22px;
+	background-color:#ea6060;
+	color:white;
+	cursor:pointer;
+}
+
+button#nasco:hover{
+	background-color:#fff;
+	color:#ea6060;
+	border:2px solid #ea6060;
+}
+
+button#vasco:hover{
+	background-color:#fff;
+	color:#ea6060;
+	border:2px solid #ea6060;
+}
+
+
+/* Styling the right flaoted Column */
+
+.columnRightFloated{
+	float:left;
+	width:70%;
+	margin-left:5%;
+	margin-right:0;
+}
+
+div.advert{
+	position: relative;
+}
+div.textAds{
+	width:75%;
+	margin:0 auto;
+}
+.photoAd{
+	position: absolute;
+	top:60px;
+}
+
+div.instaAds{
+	/*padding:20px 20px 20px 40px;*/
+	float:left;
+	background-color: #fff;
+	width:45%;
+	height:234px;
+	padding-top:60px;
+	overflow: auto;
+	vertical-align: top;
+}
+
+span a{
+	text-decoration: none;
+	color: silver;
+}
+
+span a:hover{
+	border-bottom:2px solid orange;
+}
+
+.emptySilver{
+	width:55%;
+	height:294px;
+	background-color:silver;
+	float:right;
+}
+
+.calendar{
+	margin-top:10px;
+}
+
+.storiesAndCalendar{
+	float:left;
+	width:35%;
+}
+
+.moreStories{
+	background-color:#ea6060;
+	float:right;
+	vertical-align: top;
+	width: 55%;
+	margin-left:10%;
+	padding-top:9%;
+	padding-bottom:8%;
+	text-align: center;
+}
+
+.bigEmptySilverBox{
+	height:300px;
+	margin-top:10px;
+	background-color: #787878;
+	position:relative;
+}
+
+.whatIsLorem{
+	background-color:#fff;
+	height:auto;
+	position: relative;
+}
+.listImg{
+	position: absolute;
+	top:40px;
+}
+.textMargin{
+	margin-bottom:40px;
+}
+
+.loremText{
+	width:75%;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+div.quote{
+	background-color:#fff;
+	margin-top:15px;
+	position: relative;
+}
+.imgQuote{
+	position: absolute;
+	top:20px;
+}
+div.centeredQuote{
+	width:75%;
+	margin:0 auto;
+	padding-top:30px;
+	padding-bottom:35px;
+}
+
+.pagination{
+	margin-top:10px;
+	background-color: #fff;
+}
+
+.pagination ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	text-align: center;
+	background-color:#c5cdd1;
+}
+
+.pagination ul li a:hover{
+	text-shadow:0px 3px 2px black;
+}
+.pagination ul li{
+	display: inline-block;
+	padding-left:6%;
+	padding-right:6%;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.menuBorder{
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+.pagination ul li a{
+	text-decoration: none;
+	color:#fbfbfb;
+	font-size:18px;
+}
+
+div.someArticle{
+	margin:0 auto;
+	padding-left:10%;
+	padding-top:20px;
+	padding-bottom:18px;
+	background-color:#fff;
+}
+.annaEmpty{
+	width:54px;
+	height:54px;
+	background-color:silver;
+	float:left;
+}
+.anneHataway{
+	width:45%;
+	float:left;
+}
+.anneHataway p a{
+	text-decoration: none;
+	color:skyblue;
+}
